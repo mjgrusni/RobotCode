@@ -20,5 +20,8 @@
 	<classpathentry kind="lib" path="C:/Users/Ashlee/Downloads/pi4j-1.1/pi4j-1.1/lib/pi4j-service-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Ashlee/Downloads/Libraries-20180402T202427Z-001/Libraries/netty-all-4.1.20.Final.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Ashlee/Downloads/Libraries-20180402T202427Z-001/Libraries/netty-all-4.1.20.Final-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ashlee/eclipse-workspace/j4pi i2c test2/CapstoneServer-master/Libraries/bridj-0.6.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ashlee/eclipse-workspace/j4pi i2c test2/CapstoneServer-master/Libraries/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Ashlee/eclipse-workspace/j4pi i2c test2/CapstoneServer-master/Libraries/webcam-capture-0.3.10.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
