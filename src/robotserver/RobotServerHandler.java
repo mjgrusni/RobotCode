@@ -1,5 +1,6 @@
 package robotserver;
 
+import com.github.sarxos.webcam.Webcam;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import motorhat.AdafruitDcMotorHatControl;
@@ -13,7 +14,7 @@ public class RobotServerHandler extends ChannelInboundHandlerAdapter {
 
     char command;
     int length;
-
+    Webcam webcam = Webcam.getDefault();
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception{
@@ -67,8 +68,11 @@ public class RobotServerHandler extends ChannelInboundHandlerAdapter {
             case 'C':  //Camera
                 System.out.println("File Name: " + in.toString());
                 String name = in.toString() + ".jpg";
-                BufferedImage img = ImageIO.read(Files.newInputStream(Paths.get(name)));
-                ctx.writeAndFlush(img);
+                webcam.open();
+                BufferedImage image = webcam.getImage();
+
+                //BufferedImage img = ImageIO.read(Files.newInputStream(Paths.get(name)));
+                ctx.writeAndFlush(image);
                 break;
             case 'E':  //Emergency
                 //out.add(command);
