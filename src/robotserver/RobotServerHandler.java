@@ -1,14 +1,12 @@
 package robotserver;
 
+import java.awt.image.BufferedImage;
+
 import com.github.sarxos.webcam.Webcam;
+
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import motorhat.AdafruitDcMotorHatControl;
-
-import javax.imageio.ImageIO;
-import java.awt.image.BufferedImage;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 
 public class RobotServerHandler extends ChannelInboundHandlerAdapter {
 
@@ -67,7 +65,7 @@ public class RobotServerHandler extends ChannelInboundHandlerAdapter {
                 break;
             case 'C':  //Camera
                 System.out.println("File Name: " + in.toString());
-                String name = in.toString() + ".jpg";
+                //String name = in.toString() + ".jpg";
                 webcam.open();
                 BufferedImage image = webcam.getImage();
 
