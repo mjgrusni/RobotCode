@@ -64,6 +64,8 @@ public class RobotServerHandler extends ChannelInboundHandlerAdapter {
                 //do something
                 break;
             case 'C':  //Camera
+            	System.out.println("File Name: " + in.toString());
+                //String name = in.toString() + ".jpg";
                 System.out.println("File Name: " + in.toString());
                 //String name = in.toString() + ".jpg";
                 webcam.open();

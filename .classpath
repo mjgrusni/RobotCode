@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/waqas/IdeaProjects/RobotCodeMG/libs/junit.jar"/>
-	<classpathentry kind="lib" path="C:/Users/waqas/IdeaProjects/RobotCodeMG/libs/netty-all-4.1.20.Final.jar" sourcepath="libs/netty-all-4.1.20.Final-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/waqas/IdeaProjects/RobotCodeMG/libs/pi4j-core.jar" sourcepath="libs/pi4j-core-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/waqas/IdeaProjects/RobotCodeMG/libs/pi4j-core-javadoc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/waqas/IdeaProjects/RobotCodeMG/libs/pi4j-device.jar" sourcepath="libs/pi4j-device-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/waqas/IdeaProjects/RobotCodeMG/libs/pi4j-device-javadoc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/waqas/IdeaProjects/RobotCodeMG/libs/pi4j-example.jar" sourcepath="libs/pi4j-example-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/waqas/IdeaProjects/RobotCodeMG/libs/pi4j-example-javadoc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/waqas/IdeaProjects/RobotCodeMG/libs/pi4j-gpio-extension.jar"/>
-	<classpathentry kind="lib" path="C:/Users/waqas/IdeaProjects/RobotCodeMG/libs/pi4j-gpio-extension-javadoc.jar"/>
-	<classpathentry kind="lib" path="C:/Users/waqas/IdeaProjects/RobotCodeMG/libs/pi4j-service.jar"/>
-	<classpathentry kind="lib" path="C:/Users/waqas/IdeaProjects/RobotCodeMG/libs/pi4j-service-javadoc.jar"/>
-	<classpathentry kind="lib" path="webcam-capture-0.3.10.jar"/>
-	<classpathentry kind="lib" path="libs/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="src" path=""/>
 	<classpathentry kind="lib" path="libs/bridj-0.7-20140918.jar"/>
+	<classpathentry kind="lib" path="libs/junit.jar"/>
+	<classpathentry kind="lib" path="libs/netty-all-4.1.20.Final.jar" sourcepath="libs/netty-all-4.1.20.Final-sources.jar"/>
+	<classpathentry kind="lib" path="libs/pi4j-core-javadoc.jar"/>
+	<classpathentry kind="lib" path="libs/pi4j-core.jar" sourcepath="libs/pi4j-core-sources.jar"/>
+	<classpathentry kind="lib" path="libs/pi4j-device-javadoc.jar"/>
+	<classpathentry kind="lib" path="libs/pi4j-device.jar" sourcepath="libs/pi4j-device-sources.jar"/>
+	<classpathentry kind="lib" path="libs/pi4j-example-javadoc.jar"/>
+	<classpathentry kind="lib" path="libs/pi4j-gpio-extension-javadoc.jar"/>
+	<classpathentry kind="lib" path="libs/pi4j-gpio-extension.jar" sourcepath="libs/pi4j-gpio-extension-sources.jar"/>
+	<classpathentry kind="lib" path="libs/pi4j-service-javadoc.jar"/>
+	<classpathentry kind="lib" path="libs/pi4j-service.jar" sourcepath="libs/pi4j-service-sources.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-api-1.7.2.jar"/>
+	<classpathentry kind="lib" path="libs/pi4j-example.jar" sourcepath="libs/pi4j-example-sources.jar"/>
+	<classpathentry kind="lib" path="webcam-capture-0.3.10.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

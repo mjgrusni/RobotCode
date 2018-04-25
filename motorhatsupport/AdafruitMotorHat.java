@@ -1,4 +1,4 @@
-package motorhatsupport;
+package motorhatsupport; 
 /*
  * #%L
  * **********************************************************************

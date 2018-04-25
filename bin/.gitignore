@@ -1,1 +1,14 @@
+/.classpath
+/.gitattributes
+/.idea/
+/.project
+/.settings/
+/RobotCodeMG.iml
+/libs/
+/src/
+/webcam-capture-0.3.10.jar
+/motorhat/
+/motorhatsupport/
 /robotserver/
+/RobotServer.jar
+/WiringPiGpioExample.class
